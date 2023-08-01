@@ -1,0 +1,14 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: hwb(0 12% 87%);
+}
+
+.cookie{
+    color:black
+}
+
+html{
+    background-color: #b98fe0;
+}

@@ -1,0 +1,10 @@
+.title{
+    font-size: 25px;
+    font-style: italic;
+    color: hsl(39, 100%, 50%);
+    text-align: center;
+}
+
+html{
+    background-color: beige;
+}

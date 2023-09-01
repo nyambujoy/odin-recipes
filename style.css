@@ -1,10 +1,54 @@
 .title{
-    font-size: 25px;
+    font-size: 40px;
     font-style: italic;
     color: hsl(39, 100%, 50%);
     text-align: center;
+    line-height: 40px;
 }
 
 html{
     background-color: beige;
 }
+
+.container ol{
+    list-style-type: none;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 650px;
+   
+   
+}
+
+
+
+.item{
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(236, 162, 118);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(236, 162, 118);
+    transition-property: width height;
+    transition-delay: 2s; 
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in;
+}
+
+.item:hover{
+    height : 300px ;
+    
+}
+
+a{
+    text-decoration-line: none;
+    color: rgb(27, 26, 26);
+}
+
+a:hover{
+    color: rgb(77, 77, 2);
+}
+
